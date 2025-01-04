@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Suwannaphum:wght@100;300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1A1C19;
+    padding: 10px;
+}
+
+a {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(224, 214, 194);
+    text-decoration: none;
+    border: 1px solid #E0D6C2;
+    padding: 15px 30px;
+    border-radius: 30px;
+    transition: background-color 1.3s ease, color 1.3s ease;
+}
+
+a:hover {
+    background-color: #E0D6C2;
+    color: #1A1C19;
+}
+
+.nav {
+    border: 1px solid #E0D6C2;
+    border-radius: 30px;
+    justify-content: space-between;
+    display: flex;
+    padding: 18px 4px;
+}
+
+.menu {
+    color: rgba(224, 214, 194, 0);
+    text-decoration: none;
+    border: 1px solid #e0d6c200;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.menu:hover {
+    background-color: #e0d6c200;
+    color: rgba(224, 214, 194, 0);
+    text-decoration: none;
+    border: 1px solid #e0d6c200;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.Museo-Sans {
+
+    background-color: rgba(224, 214, 194, 0.233);
+    padding: 15px 120px;
+    border: 1px solid rgba(224, 214, 194, 0.233);
+    color: rgb(224, 214, 194);
+}
+
+.Museo-Sans:hover {
+    background-color: rgba(224, 214, 194, 0.233);
+    padding: 15px 120px;
+    color: rgb(224, 214, 194);
+}
+
+.main-box {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+}
+
+.box1 {
+    padding: 20px;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    background-color: #E0D6C2;
+    border-radius: 30px;
+}
+
+.box2 {
+    border-radius: 30px;
+    padding: 20px;
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    background-color: #8F8868;
+}
+
+.box3 {
+    border-radius: 30px;
+    padding: 15px;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #976C54;
+
+    width: 380px;
+height: 597px;
+top: 480px;
+left: 729px;
+gap: 0px;
+
+opacity: 0px;
+
+}
+
+.box4 {
+    border-radius: 30px;
+    padding: 20px;
+    grid-column: 3;
+    grid-row: 2;
+    background-color: #B5A38D;
+
+    width: 317.54px;
+height: 597px;
+top: 480px;
+left: 1161px;
+gap: 0px;
+
+opacity: 0px;
+
+}
+
+h4 {
+    color: rgb(52, 36, 21);
+    font-family: inter;
+    font-weight: 400;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0px 10px;
+    border: 1px solid #1A1C19;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-family: Suwannaphum;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    color: rgb(52, 36, 21);
+    margin-bottom: 30px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.fstimg {
+    margin-bottom: 30px;
+    height: 90vh;
+    width: 65vh;
+    transition: 1s ease, color 1s ease;
+
+}
+
+.fstimg:hover {
+    transform: scale(1.04);
+}
+
+.line {
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 0.3px;
+    border: 1px;
+    background-color: #1A1C19;
+}
+
+.eline {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 0.3px;
+    border: 1px;
+    background-color: #1A1C19;
+}
+
+.get-started {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(26, 28, 25);
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2flex {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.sndimg {
+
+    height: 40vh;
+    width: 55vh;
+    transition: 1s ease, color 1s ease;
+}
+.sndimg:hover{
+    transform: scale(1.04);
+}
+
+.trdimg {
+    height: 40vh;
+    width: 65vh;
+    transition: 1s ease, color 1s ease;
+    margin: 0 auto;
+}
+.trdimg:hover{
+    transform: scale(1.01);
+}
+
+
+.frtimg{
+    width: 113px;
+height: 113px;
+top: -390px;
+left: 1576px;
+gap: 0px;
+border-radius: 30000px ;
+opacity: 0px;
+margin-left: 80px;
+transition: 1s ease, color 1s ease;
+
+}
+
+.frtimg:hover{
+    transform: scale(1.04);
+}
+
+p {
+    margin-bottom: 30px;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2ppx;
+    color:
+        rgb(52, 36, 21);
+}
+
+.frtbox {
+    display: flex;
+}
+
+.public {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.fline {
+    margin-bottom: 7px;
+    width: 100%;
+    padding: 0.7px;
+    border: 1px;
+    background-color: #0e0e0e;
+}
+
+.public {
+    margin-top: 20px;
+}
+
+.arrow {
+    width: 14px;
+    height: 15px;
+    transition:  1s ease, color 1s ease;
+
+}
+.arrow :hover {
+    color: #E0D6C2;
+}
+
+@media screen and (max-width: 440px) {
+    .menu {
+        color: rgb(224, 214, 194);
+        text-decoration: none;
+        border: 1px solid #E0D6C2;
+        padding: 15px 45px;
+        border-radius: 30px;
+    }
+
+    .menu:hover {
+        background-color: #E0D6C2;
+        color: #1A1C19;
+    }
+
+    .Collections {
+        display: none;
+    }
+
+    .Our-mission {
+        display: none;
+    }
+
+    .Events {
+        display: none;
+    }
+
+    .Contact-now {
+        display: none;
+    }
+
+    .Museo-Sans {
+        padding: 15px 90px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .main-box {
+        grid-template-columns: 1fr; 
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        grid-column: 1; 
+        grid-row: auto; 
+        margin-bottom: 20px; 
+    }
+
+    .fstimg {
+        height: auto; 
+        width: 100%; 
+    }
+
+    .sndimg {
+        height: auto; 
+        width: 100%; 
+    }
+
+    h1 {
+        font-size: 28px; 
+        line-height: 32px; 
+        margin-bottom: 20px; 
+    }
+
+    p {
+        font-size: 14px; 
+        line-height: 1.6; 
+    }
+
+    .get-started {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+    }
+
+    .arrow {
+        display: none; 
+    }
+
+    .line,
+    .eline,
+    .fline {
+        margin-bottom: 20px; 
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .menu {
+        padding: 15px 25px; 
+    }
+
+    .Museo-Sans {
+        padding: 15px 60px; 
+    }
+
+    .fstimg {
+        height: auto; 
+        width: 100%; 
+    }
+
+    .sndimg {
+        height: auto; 
+        width: 100%; 
+    }
+}
